@@ -1,0 +1,6 @@
+"0","reticulate::repl_python()
+print(""https://www.chinatcx.com.cn/list/123.html?page={}"".format(i+1))
+
+"
+"1","https://www.chinatcx.com.cn/list/123.html?page=42
+"

@@ -1,0 +1,8 @@
+"0","reticulate::repl_python()
+print(loc)
+print(size)
+"
+"1","{'x': 473, 'y': 322}
+"
+"1","{'height': 140.0, 'width': 280.0}
+"

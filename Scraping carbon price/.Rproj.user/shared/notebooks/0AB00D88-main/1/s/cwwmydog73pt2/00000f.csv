@@ -1,0 +1,12 @@
+"0","all_tables = []
+for i in range(98):
+    driver.get(""https://ets.sceex.com.cn/history.htm?k=li_shi_xing_qing&url=mrhq_ls&pageIndex={}"".format(i+1)) 
+    driver.implicitly_wait(10)
+    soup = BeautifulSoup(driver.page_source, 'html.parser')
+    tables = soup.find_all('table')
+    dfs = pd.read_html(str(tables), flavor='html5lib')
+    all_tables.append(dfs)
+
+"
+"2","MaxRetryError: HTTPConnectionPool(host='localhost', port=62258): Max retries exceeded with url: /session/4b3f5255-78d6-4abc-ab68-62178f21ab33/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x13c6d8f90>: Failed to establish a new connection: [Errno 61] Connection refused'))
+"

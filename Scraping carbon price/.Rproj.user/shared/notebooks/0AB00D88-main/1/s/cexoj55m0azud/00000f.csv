@@ -1,0 +1,3 @@
+"0","driver = webdriver.Firefox()"
+"0","driver.get(""https://ets.sceex.com.cn/history.htm?k=li_shi_xing_qing&url=mrhq_ls&pageIndex=1"")"
+"0",""

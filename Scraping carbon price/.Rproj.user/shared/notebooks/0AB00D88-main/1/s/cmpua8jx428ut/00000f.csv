@@ -1,0 +1,3 @@
+"0","driver = webdriver.Firefox()"
+"0","driver.get(""https://www.chinatcx.com.cn/list/13.html?page=1"")"
+"0",""

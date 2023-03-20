@@ -1,0 +1,5 @@
+"0","# Opening the connection and grabbing the page"
+"0","my_url = 'https://www.google.com/webhp?hl=en'"
+"0","driver = webdriver.Firefox()"
+"0","driver.get(my_url)"
+"0",""
